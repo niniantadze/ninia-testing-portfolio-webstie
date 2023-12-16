@@ -121,3 +121,38 @@ p {
 .contact-me {
   font-size: 50px;
 }
+@media (max-width: 700px) {
+  p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .contact-me {
+    font-size: 30px;
+  }
+  .email-link {
+    font-size: 15px;
+  }
+  .aboutme {
+    font-size: 50px;
+  }
+}
+@media (max-width: 767px) {
+  h2,
+  h1,
+  h3 {
+    text-align: center;
+  }
+
+  .navigation-links {
+    text-align: center;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .col-6 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
